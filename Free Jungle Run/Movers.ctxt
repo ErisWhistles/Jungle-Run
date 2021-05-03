@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Movers
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Movers\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Movers\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ maxSpeed()
+comment3.params=
+comment3.target=void\ moveAndTurn()
+comment4.params=
+comment4.target=void\ slideAround()
+comment5.params=
+comment5.target=boolean\ hitWalls()
+comment6.params=
+comment6.target=boolean\ hitEnemy()
+comment6.text=public\ void\ touchBoost()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if(isTouching(SpeedBoost.class))\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ speed++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ removeTouching(SpeedBoost.class);\r\n\ \ \ \ \ \ \ \ }\r\n}
+numComments=7
